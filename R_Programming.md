@@ -21,3 +21,4 @@ And the reason that the functionality of R is so extensive is the community that
 
 ### Usng R markdown or Git, we can make our text any way we want: Bold, italics, underline, html, bullets etc.
 ### We can run inline r code and even [links](yyfghh.com) too. Code chunks are made with ''' code ''' like this
+### shortcuts like ctrl, alt, i for windows
