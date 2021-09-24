@@ -1,4 +1,4 @@
-#### R is both a programming language and an environment, focused mainly on statistical analysis and graphics. R is downloaded from the Comprehensive R Archive Network, or CRAN.
+####  is both a programming language and an environment, focused mainly on statistical analysis and graphics. R is downloaded from the Comprehensive R Archive Network, or CRAN.
 
 We are using R because : 
 #### Popularity
