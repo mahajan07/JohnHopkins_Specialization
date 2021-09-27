@@ -25,7 +25,7 @@ x <- list(1, "a", TRUE, 1 + 4i)  >> x[[4]] ... we index elements with double bra
 m <- matrix(1: 6, nrow = 2, ncol = 3)
 m >> first row element (1) is filled then column element (2) then row again column.
 
-Binding rows and columns: 
+Binding rows and columns::
 x<- 1:3
 y<- 10:12
 cbind(x,y)  
