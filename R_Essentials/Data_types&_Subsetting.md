@@ -41,3 +41,8 @@ is.na(x) >>> it returns True for NA values
 - DATAFEAMES
 -used to store tabular data, represented as special type of list where every element of list have same length, they can store different classes of objects in each column. Special attributes called row.names; they are created by read.table() or read.csv(). They are converted to matrix by data.matrix().
 x<- data.frame(food = 1:5, bar + c(T,T,F,F))
+
+- Other common arithmetic operators are `+`, `-`, `/`,
+| and `^` (where x^2 means 'x squared'). To take the
+| square root, use the sqrt() function and to take the
+| absolute value, use the abs() function.
