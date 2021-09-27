@@ -12,9 +12,10 @@ You can have a vector of characters or a vector of integers, one thing you canno
 You can have a list that's inside the list and one element of the list can be a data frame so, any element of the list can be anything. And that's actually why what makes list so useful.
 - Numbers in R are generally treated as numeric objects 
 - Nan represents none values
-- R objects have attributes: names, dimensions, dimensions, class, length, other user defined attributes, Attributes are set using Attribute() function.
+- R objects have attributes: names, dimensions, dimensions, class, length, other user defined attributes, Attributes are set using Attribute() function. The easiest way to create a vector is with the c()function, which stands for 'concatenate' or 'combine'.
 #### Vectors and Lists
-- c() function can be used to create vectors of objects, it can be used to create concatenation of intergers, boolean , complex and even chracters
+- c() function can be used to create vectors of objects, it can be used to create concatenation of intergers, boolean , complex and even chracters.The easiest way to create a vector is with the c()
+| function, which stands for 'concatenate' or 'combine'.
 - x <- vector(numeric, length =10) initialize vector with vaalue 10, default value is 0 for vector.
 -  vector can have all data class, numeric and class.... you wont get error on mic=xing data types in vector but they will have their own style of display like (true, false, 2) will be like 1,0,2 as true signifies 1 in R
 -  To convert classes in R, from numeric to chracter. numeric to boolean, we use the example: create a sequence of 0 to 6 x <- 0:6   >>  class(x) --- numeric   >> as.numeric(x) >> 0,1,2,3,4,5,6  >> as.logical(x) -- False True True True True.....  >> as.chracter(x) -- "0" "1" "2" "3" .....
