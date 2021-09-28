@@ -63,4 +63,10 @@ There are number of operators that can be used to extract subsets of R objcts.
 - $bar >> 0.6
 - x[c(1,3)]  >> extracts $foo and $baz >>> 1234, hello
 
+## Partial Matching
+Partial matching of names is allowed with [[ and $.
+whatever the name is of the list is if we use $ sign it does not find exact name and O/P result but in case of [[, we have to to specify full name else it will return NULL and if we cannot supply exact name, we have to add an attribute x[["a",Exact = False]]
+
+
+
 
