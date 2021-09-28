@@ -64,8 +64,18 @@ There are number of operators that can be used to extract subsets of R objcts.
 - x[c(1,3)]  >> extracts $foo and $baz >>> 1234, hello
 
 ## Partial Matching
-Partial matching of names is allowed with [[ and $.
-whatever the name is of the list is if we use $ sign it does not find exact name and O/P result but in case of [[, we have to to specify full name else it will return NULL and if we cannot supply exact name, we have to add an attribute x[["a",Exact = False]]
+- Partial matching of names is allowed with [[ and $.
+- whatever the name is of the list is if we use $ sign it does not find exact name and O/P result but in case of [[, we have to to specify full name else it will return NULL and if we cannot supply exact name, we have to add an attribute x[["a",Exact = False]]
+
+### Removing NA values : to remove missing values
+x <- c(1,2,NA, 4,NA,5)
+bad <- is.na(x)
+x[!bad] >> 1,2,4,5
+
+complete.cases() >> returns vector of rows with na values
+
+na.omit(data_source) >> it will delete all the data from list!
+
 
 
 
