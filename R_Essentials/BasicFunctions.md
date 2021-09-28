@@ -10,7 +10,15 @@ specify name of file or db, header >> indicating file as header , sep >> strings
 #### Writing Data
 - write.table
 - writeLines
-- dump
+- dump 
 - dput
+Dumping and dputing are useful because the resulting textual format is edit able and if corroupted, potentially recoverable. They preserve metadata.
 - save
 - serialize
+- Texual data adhere to "Unix Philosophy". The format is not so space efficient.
+
+## Data are read in using connection interfaces.
+- file   >> opens a connection to a file
+- gzfile >> open a connection to a file compressed with gzip
+- bzfile >> opens a connection to a file compressed with bzip2
+- url    >> opens a connection to a webpage
