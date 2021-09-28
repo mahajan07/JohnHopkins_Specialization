@@ -2,6 +2,7 @@
 - read.table, read.csv for reading tabular data
 specify name of file or db, header >> indicating file as header , sep >> strings indicating how columns are seperated, colClasses >> chracter vector indicating class of each column , nrows >> number of rows in dataset, skip >> number of lines to skip from beginning, stringAsFactors >> read strings as factors
 - readLines, for reading lines a text file
+x <-  readLines(file_name_variable, 10) >> 10 is no. of lines
 - source, for reading in R code files(inverse of dump)
 - dget, for reading in R code files( inverse of dput)
 - load, for reading in saved workspaces
@@ -22,3 +23,9 @@ Dumping and dputing are useful because the resulting textual format is edit able
 - gzfile >> open a connection to a file compressed with gzip
 - bzfile >> opens a connection to a file compressed with bzip2
 - url    >> opens a connection to a webpage
+
+## Open is code indicating
+- r >> read only
+- w >> writing
+- a >> appending
+- rb, wb, ab >> reading, writing, appending in binary mode!
