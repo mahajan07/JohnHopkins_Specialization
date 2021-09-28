@@ -43,6 +43,24 @@ is.na(x) >>> it returns True for NA values
 x<- data.frame(food = 1:5, bar + c(T,T,F,F))
 
 - Other common arithmetic operators are `+`, `-`, `/`,
-| and `^` (where x^2 means 'x squared'). To take the
-| square root, use the sqrt() function and to take the
-| absolute value, use the abs() function.
+ and `^` (where x^2 means 'x squared'). To take the
+ square root, use the sqrt() function and to take the
+ absolute value, use the abs() function.
+
+
+## SubSetting
+There are number of operators that can be used to extract subsets of R objcts.
+- [] always returns object of same class as original
+- [[ ]] is used to extract elements of a list or a data frame. used to extract single element and class of returned object will not be list or data frame
+- $ is used to extract elements of list, data frame by name, semantics are similar to hat of [[.
+
+- Subsetting Lists:
+- x <- list(foo = 1:4, bar = 0.6, baz = "hello") 
+- x[1] >> 1,2,3,4
+- x[[1]] >> 1 2 3 4
+- x$bar >> 0.6
+- x[["bar"]] >> 0.6
+- $bar >> 0.6
+- x[c(1,3)]  >> extracts $foo and $baz >>> 1234, hello
+
+
