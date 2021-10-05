@@ -4,3 +4,4 @@
 - <. > <= , >= , == and != are operators that give a lot of intuition in checking and measuing quantities and logics.
 - And and Or operator scene!
 - isTRUE() tells which value has true value for an argument
+- which(), all(), any() return TRUE for the passed value!
