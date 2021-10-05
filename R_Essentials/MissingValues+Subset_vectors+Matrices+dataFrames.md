@@ -20,3 +20,4 @@ eg: A matrix of 4 rows and 5 columns with numbering from 1-20; binded usibg rorc
 -  Column_names = c(age, bp, weight, rating,test) 
 -  colnames(dataframe) <- column-names
 -  NOw dataframe is 4*5 dimension frame with Names as indexes and Age, bp weight etc as columns.
+k
